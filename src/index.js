@@ -4,12 +4,15 @@ import './index.css';
 
 const page = (
   <div>
-    <h1>Trying React</h1>
-    <h4>Why I love React?</h4>
+    <img src={require('./react-logo.png')} alt='' width="60px"/>
+    <h1>Fun facts about React</h1>
     <ul>
-      <li>It's composable.</li>
-      <li>It's declarative.</li>
-      <li>It's fun to code.</li>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Is maintained by Facebook</li>
+      <li>Is used by over 1.5 million developers</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
 )
