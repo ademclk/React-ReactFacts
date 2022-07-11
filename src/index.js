@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-const page = (
-  <div>
+function PageComponent() {
+  return (
+    <div>
     <img src={require('./react-logo.png')} alt='' width="60px"/>
     <h1>Fun facts about React</h1>
     <ul>
@@ -15,6 +16,7 @@ const page = (
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
   </div>
-)
+  )
+}
 
-ReactDOM.render(page, document.getElementById('root'));
+ReactDOM.render(<PageComponent />, document.getElementById('root'));
