@@ -2,14 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function PageComponent() {
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src={require('./react-logo.png')} alt='' width="60px" />
+      </nav>
+    </header>
+  )
+}
+
+function Footer() {
+  return (
+    <footer>
+      <small>&copy; 2022 efreiann development. All rights reserved.</small>
+    </footer>
+  )
+}
+
+function MainContent() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src={require('./react-logo.png')} alt='' width="60px"/>
-        </nav>
-      </header>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -19,11 +32,19 @@ function PageComponent() {
         <li>Has well over 100k stars on Github</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-      <footer>
-        <small>&copy; 2022 efreiann development. All rights reserved.</small>
-      </footer>
-  </div>
+    </div>
+  )
+
+}
+
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
   )
 }
 
-ReactDOM.render(<PageComponent />, document.getElementById('root'));
+ReactDOM.render(<Page />, document.getElementById('root'));
