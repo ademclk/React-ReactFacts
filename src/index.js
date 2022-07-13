@@ -5,7 +5,7 @@ import  Header from './components/Header';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 
-function Page() {
+function App() {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ function Page() {
   )
 }
 
-ReactDOM.render(<Page />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
