@@ -5,8 +5,13 @@ import './index.css';
 function Header() {
   return (
     <header>
-      <nav>
-        <img src={require('./react-logo.png')} alt='' width="60px" />
+      <nav className='nav'>
+        <img className = "nav-logo" src={require('./react-logo.png')} alt=''/>
+        <ul className='nav-bar'>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Content</li>
+        </ul>
       </nav>
     </header>
   )

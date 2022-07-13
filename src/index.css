@@ -2,3 +2,23 @@ html, body {
   margin: 0;
   padding: 14px;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.nav-bar > li {
+  padding: 10px;
+}
