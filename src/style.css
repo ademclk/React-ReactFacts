@@ -12,7 +12,7 @@ nav {
   display: flex;
   align-items: center;
   background-color: #21222A;
-  height: 90px;
+  height: 100px;
   padding: 30px 25px;
 }
 
@@ -24,14 +24,16 @@ nav {
   margin-right: auto;
   color: #61DAFB;
   font-weight: 700;
+  font-size: 34px;
 }
 
 .nav--title{
   color: #DEEBF8;
+  font-size: 24px;
 }
 
 .nav--logo {
-  height: 30px;
+  height: 80px;
   margin-right: 7px;
 }
 
@@ -46,7 +48,7 @@ main {
 
 .main--title {
   margin: 0;
-  font-size: 54px;
+  font-size: 44px;
   letter-spacing: -0.05em;
 }
 
